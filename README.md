@@ -11,6 +11,8 @@ An improved Demo for the FSPagerView project
 3. Save code creation, automatic layout constraints, joined Cartography project
 4. Join the network picture download and join the Kingfisher project
 
+<img src="https://github.com/cctv888/PagerViewDynamicallyLayout/blob/master/demo.png" alt="9" style="max-width:30%;">
+
 <h3>Create Banner View</h3>
 <pre>
 let pv = BannerView(frame: CGRect(x: 0, y: 10, width: mWidht, height: 150))
