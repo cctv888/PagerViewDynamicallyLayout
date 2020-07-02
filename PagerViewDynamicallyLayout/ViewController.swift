@@ -25,7 +25,8 @@ class ViewController: UIViewController {
         let sv1 = HScrollView(frame: CGRect(x: 0, y: 10, width: mWidht, height: 160))
         sv1.setDataSource(dataSource: BannerData())
         self.view.addSubview(sv1)
-
+ 
+        //Automatic layout constraints by Cartography
         constrain(pv, sv1) { (pv, sv1) in
             sv1.width == mWidht
             sv1.height == 160
