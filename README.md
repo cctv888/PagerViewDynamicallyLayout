@@ -21,7 +21,7 @@ pv.setPageControl()
 self.view.addSubview(pv)
 </pre>
 
-<h3>Create scroll horizontally View</h3>
+<h3>Create Scroll Horizontally View</h3>
 <pre>
 let sv1 = HScrollView(frame: CGRect(x: 0, y: 10, width: mWidht, height: 160))
 sv1.setDataSource(dataSource: BannerData())
