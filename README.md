@@ -1,7 +1,7 @@
 # PagerViewDynamicallyLayout
 对 FSPagerView 项目的一个改进Demo<br>
 1、支持滚动大图<br>
-2、支持多图水平滚动展示(对原项目 FSPagerView 进行了调整)<br>
+2、支持多图水平滚动展示（对原项目 FSPagerView 进行了调整）<br>
 3、存代码创建，自动布局约束，加入了 Cartography 项目<br>
 4、加入网络图片下载，加入了 Kingfisher 项目<br>
 
