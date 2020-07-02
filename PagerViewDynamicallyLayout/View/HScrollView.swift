@@ -24,7 +24,7 @@ class HScrollView: UIView {
         pagerView!.delegate = self
         pagerView!.dataSource = self
         pagerView!.register(FSPagerViewCell.self, forCellWithReuseIdentifier: "cell")
-        //        pagerView!.backgroundColor = UIColor.gray
+        pagerView!.backgroundColor = UIColor.gray
         pagerView!.layer.masksToBounds = true
         pagerView!.itemSize = CGSize(width: frame.width/4.8, height: frame.width/3.5)
         pagerView!.interitemSpacing = CGFloat(10)

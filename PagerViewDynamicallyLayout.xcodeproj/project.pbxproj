@@ -16,7 +16,6 @@
 		3A72234424AD708B0067540D /* BannerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72234324AD708B0067540D /* BannerData.swift */; };
 		3A72234624AD70950067540D /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72234524AD70950067540D /* BannerView.swift */; };
 		3A72234824AD709B0067540D /* HScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72234724AD709B0067540D /* HScrollView.swift */; };
-		3A72234E24AD78E00067540D /* new-call-of-duty-modern-warfare-news5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A72234D24AD78E00067540D /* new-call-of-duty-modern-warfare-news5.jpg */; };
 		EA4DC487CA6F0194E3EF6A7F /* Pods_PagerViewDynamicallyLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711547059F52F9C63F0EAE9E /* Pods_PagerViewDynamicallyLayout.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		3A72234324AD708B0067540D /* BannerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerData.swift; sourceTree = "<group>"; };
 		3A72234524AD70950067540D /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		3A72234724AD709B0067540D /* HScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HScrollView.swift; sourceTree = "<group>"; };
-		3A72234D24AD78E00067540D /* new-call-of-duty-modern-warfare-news5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "new-call-of-duty-modern-warfare-news5.jpg"; sourceTree = "<group>"; };
 		711547059F52F9C63F0EAE9E /* Pods_PagerViewDynamicallyLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagerViewDynamicallyLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		904E9AB1DFDEEEE48AA483F9 /* Pods-PagerViewDynamicallyLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerViewDynamicallyLayout.release.xcconfig"; path = "Target Support Files/Pods-PagerViewDynamicallyLayout/Pods-PagerViewDynamicallyLayout.release.xcconfig"; sourceTree = "<group>"; };
 		F0F83E94EC8E9721BE4E6394 /* Pods-PagerViewDynamicallyLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerViewDynamicallyLayout.debug.xcconfig"; path = "Target Support Files/Pods-PagerViewDynamicallyLayout/Pods-PagerViewDynamicallyLayout.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		3A72232D24AD70060067540D /* PagerViewDynamicallyLayout */ = {
 			isa = PBXGroup;
 			children = (
-				3A72234C24AD78D00067540D /* Resources */,
 				3A72234224AD70660067540D /* View */,
 				3A72232E24AD70060067540D /* AppDelegate.swift */,
 				3A72233024AD70060067540D /* SceneDelegate.swift */,
@@ -92,14 +89,6 @@
 				3A72234324AD708B0067540D /* BannerData.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		3A72234C24AD78D00067540D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3A72234D24AD78E00067540D /* new-call-of-duty-modern-warfare-news5.jpg */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		B25B939DF9EA253C2AD48EFF /* Frameworks */ = {
@@ -181,7 +170,6 @@
 			files = (
 				3A72233B24AD70060067540D /* LaunchScreen.storyboard in Resources */,
 				3A72233824AD70060067540D /* Assets.xcassets in Resources */,
-				3A72234E24AD78E00067540D /* new-call-of-duty-modern-warfare-news5.jpg in Resources */,
 				3A72233624AD70060067540D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
