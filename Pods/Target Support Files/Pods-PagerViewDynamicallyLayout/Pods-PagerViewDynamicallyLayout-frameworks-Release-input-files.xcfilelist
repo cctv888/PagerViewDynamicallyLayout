@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PagerViewDynamicallyLayout/Pods-PagerViewDynamicallyLayout-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework
+${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework

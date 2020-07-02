@@ -1,0 +1,6 @@
+framework module Pods_PagerViewDynamicallyLayout {
+  umbrella header "Pods-PagerViewDynamicallyLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
