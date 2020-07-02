@@ -10,3 +10,27 @@ An improved Demo for the FSPagerView project
 2. Support multi-picture horizontal scrolling display (adjusted FSPagerView for the wish item)
 3. Save code creation, automatic layout constraints, joined Cartography project
 4. Join the network picture download and join the Kingfisher project
+
+<h3>Create Banner View</h3>
+<pre>
+let pv = BannerView(frame: CGRect(x: 0, y: 10, width: mWidht, height: 150))
+pv.setDataSource(dataSource: BannerData())
+pv.setPageControl()
+self.view.addSubview(pv)
+</pre>
+
+<h3>Create Scroll horizontally View</h3>
+<pre>
+let sv1 = HScrollView(frame: CGRect(x: 0, y: 10, width: mWidht, height: 160))
+sv1.setDataSource(dataSource: BannerData())
+self.view.addSubview(sv1)
+</pre>
+
+<h3>Automatic layout constraints by Cartography</h3>
+<pre>
+constrain(pv, sv1) { (pv, sv1) in
+  sv1.width == mWidht
+  sv1.height == 160
+  sv1.top >= pv.bottom + 10
+}
+</pre>
