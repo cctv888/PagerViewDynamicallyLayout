@@ -10,8 +10,9 @@ An improved Demo for the FSPagerView project
 2. Support multi-picture horizontal scrolling display (adjusted to the original project FSPagerView)
 3. Save code creation, automatic layout constraints, joined Cartography project
 4. Join the network picture download and join the Kingfisher project
-
+<br>
 <img src="https://github.com/cctv888/PagerViewDynamicallyLayout/blob/master/demo.png" alt="9" style="max-width:30%;">
+<br>
 
 <h3>Create Banner View</h3>
 <pre>
